@@ -9,7 +9,12 @@ def insertionsort(A):
         A[position] = cvalue
 
 
-A = [9,6,1]
+A = []
+x = int(input("Enter the length of an array : "))
+for arr in range(x):
+    print("Enter the Element at index ",arr)
+    l = int(input())
+    A.append(l)
 print('Original Array:',A)
 insertionsort(A)
 print('Sorted Array:',A)
